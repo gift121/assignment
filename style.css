@@ -1,0 +1,168 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: hsl(0,0%,98%);
+    width: 100%;
+   min-height: 100vh;
+  }
+  header{
+    
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0,0%,98%);
+    box-shadow: 3px 4px 4px 3px gray;
+  }
+  .nav-links{
+    width: 100%;
+  }
+  .nav-links li{
+    display: inline-block;
+    margin: 0.4em; 
+    cursor: pointer;
+  }
+  .nav-links li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ba5afe;
+  }
+  .nav-links li a:hover{
+    color: rgba(0,0,0,0.8);
+    border: 1px solid #ba5afe;
+    padding: 5px;
+    text-decoration: underline white ;
+  }
+  main .box{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  main .box-width{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    width: 90%;
+  background-color: hsl(0,0%,98%);
+  box-shadow: 3px 4px 4px 3px gray;
+  margin-top: 2em;
+    }
+  .flex-row{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    align-items: center;
+     }
+  figure img{
+    width: 150px;
+    border: 2px double gray;
+    border-radius: 50px;
+    }
+  .flex-text{
+    width: 100%;
+    padding: 1em;
+    }
+  .info{
+    text-align: center;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;  
+    width:100%;
+    align-items: center;
+  }
+  .about .flex{
+  display: flex;
+   align-items: center;
+    flex-direction: column;
+    width: 90%;
+  background-color: hsl(0,0%,98%);
+  box-shadow: 3px 4px 4px 3px gray;
+  margin-top: 2em;
+    }
+  .flex h2{
+    color: #ba5fae;
+    text-align: center;
+  }
+  .flex p{
+    color: rgba(0,0,0,0.7);
+    text-align: center;
+    }
+  #service{
+    display: flex;
+    flex-direction: column;  
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+    #service .serviceFlex{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+       background-color: hsl(0,0%,98%);
+  box-shadow: 3px 4px 4px 3px gray;
+  margin-top: 2em;
+    }
+  
+  .hobby h3, .skills h3{
+    text-align: center;
+   color: purple;
+  }
+  .hobby li, .skills li{
+    color: rgba(0, 0, 0, 0.7);
+    list-style: none;
+  }
+  
+  .contact-form{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+   height: 90vh;
+    }
+  form{
+    width: 90%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    box-shadow: 3px 4px 4px 3px gray;
+    padding: 18px 10px;
+    }
+  .main-user-info{
+    position: relative;
+        }   
+  .user-input{
+    display: flex;
+      flex-direction:column;
+    margin: 0.5em;
+    }
+  .user-input label{
+    color: hsl(0,0%,98%);
+    }
+    
+  .user-input input{
+    padding: 0.5em;
+    border: none;
+    outline: none;
+      }
+  .btn{
+      width:100%;
+  }
+  .btn button {
+    text-align: center;
+    background-color: hsl(0,0%,98%);
+    color: purple;
+    padding: 0.4em;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  
